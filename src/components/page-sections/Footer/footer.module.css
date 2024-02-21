@@ -1,4 +1,58 @@
 .footer {
-  height: 30px;
-  border: 1px solid white;
+  height: 170px;
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  background: var(--color-footer);
+  padding-top: 12px;
+}
+
+.socialContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  height: 61px;
+  border-bottom: 2px solid var(--color-font-red);
+}
+
+.socialContainer div {
+  width: 35px;
+  height: 35px;
+  background-color: var(--color-font-red);
+  border-radius: 35px;
+}
+
+.socialContainer div:nth-child(odd) {
+  margin-top: 17px;
+}
+
+.linkContainer {
+  display: flex;
+  gap: 41px;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+}
+
+.relleno {
+  width: 100%;
+  max-width: 30px;
+}
+
+.topContainer {
+  display: flex;
+  text-align: center;
+  width: 100vw;
+  height: 93px;
+}
+
+.addmeContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 14px;
+  height: 93px;
 }

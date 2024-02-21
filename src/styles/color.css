@@ -1,0 +1,12 @@
+:root {
+  --color-white-1: #f3faff;
+  --color-black-1: #0d0d0d;
+  --color-font-red: #fb343e;
+  --color-font-black: #000000;
+  --color-button-nav: #f9e8e8;
+  --color-footer: linear-gradient(
+    to bottom,
+    rgba(8, 16, 25, 14%),
+    rgba(0, 0, 0, 73%)
+  );
+}
